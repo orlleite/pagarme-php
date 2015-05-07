@@ -42,4 +42,8 @@ require(dirname(__FILE__) . '/lib/Pagarme/Address.php');
 require(dirname(__FILE__) . '/lib/Pagarme/Phone.php');
 require(dirname(__FILE__) . '/lib/Pagarme/Card.php');
 
+require(dirname(__FILE__) . '/lib/Pagarme/BankAccount.php');
+require(dirname(__FILE__) . '/lib/Pagarme/Balance.php');
+require(dirname(__FILE__) . '/lib/Pagarme/Transfer.php');
+
 ?>

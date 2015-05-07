@@ -11,7 +11,7 @@ class PagarMe_TransactionCommon extends PagarMe_CardHashCommon
 		if(!isset($this->status)) {
 			$this->status = 'local';
 		}
-	} 
+	}
 
 	protected function checkCard()
 	{
